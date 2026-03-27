@@ -10,14 +10,14 @@ public class EstruturasCombinadas {
     if(i% j == 0) {
     numeroDivisores++;
     }
-    1++;
+    j++;
     }
     if(numeroDivisores == 2){
     quantidadeNumerosPrimos++;
         System.out.println("... sim!");
         }else {
             System.out.println("... nao!");
-    t
+
     }
     }
     System.out.println("Quantidade de numeros primos: " + quantidadeNumerosPrimos);

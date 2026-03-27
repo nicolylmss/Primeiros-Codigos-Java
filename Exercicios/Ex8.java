@@ -1,10 +1,21 @@
-public class Ex8{
-    public static void main(Strings[] args){
-        Scanner scanner = new Scanner (System.In);
-        System.out.printIn("Digite o primeiro valor:");
+package Exercicios;
+import java.util.Scanner;
+
+public class Ex8 {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Digite o primeiro valor:");
         int a = scanner.nextInt();
-        System.out.printIn("Digite o segundo valor:");
-        int b = scanner.nextInt(); 
-        System.ou.printIn(a>b ? "O maior valor é o primeiro digitado:" + a : "O maior valor é o segundo digitado:" + b); 
+        System.out.println("Digite o segundo valor:");
+        int b = scanner.nextInt();
+        if (a > b) {
+            System.out.println("O maior valor é o primeiro digitado:" + a);
+        } else if (b > a) {
+            System.out.println("O maior valor é o segundo digitado:" + b);
+        } else {
+            System.out.println("Os valores são iguais.");
+
+
+        }
     }
 }

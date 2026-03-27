@@ -3,14 +3,14 @@ public class CombinacaoOperadores {
         int a = 3;
         int b = 6;
         int c = 9 ;
-        int d = 12
-        int e = 15
-        a += 1; ;
+        int d = 12;
+        int e = 15;
+        a += 1;
         b -= 2; 
         c*= 3; 
-        d l = 4 
+        d /= 4;
         e %= 5; 
         System.out.println("a:" + a + "b:" + b);
-        System.out.println("c:" + C + "d:" + d + "e:" + e);
+        System.out.println("c:" + c + "d:" + d + "e:" + e);
 }
 }

@@ -1,18 +1,13 @@
-public class Ex9{
-    public static void main (Strings[] args){
-        Scanner scanner = new Scanner(System.In);
-        System.out.printIn("Digite o primeiro lado:");
+package Exercicios;
+import java.util.Scanner;
+
+public class Ex9 {
+    public static void main(String[] args){
+        Scanner scanner = new Scanner (System.in);
+        System.out.println("Digite o primeiro valor:");
         int a = scanner.nextInt();
-        System.out.printIn("Digite o segundo lado:");
-        int b = scanner.nextInt();
-        System.out.printIn("Digite o terceiro lado:");
-        int c = scanner.nextInt();
-        if (a==b && b==c){
-            System.out.printIn("O triangulo é equilatero.");
-        } else if (a==b || a==c || b==c){
-            System.out.printIn("O triangulo é isosceles.");
-        } else {
-            System.out.printIn("O triangulo é escaleno.");
-        }
+        System.out.println("Digite o segundo valor:");
+        int b = scanner.nextInt(); 
+        System.out.println(a>b ? "O maior valor é o primeiro digitado:" + a : "O maior valor é o segundo digitado:" + b);
     }
 }
